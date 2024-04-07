@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Onest", sans-serif;
+}
+.sidebar{
+  color: #fff;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* margin: 10px; */
+  color: #fff;
+}
+.logo-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  color: #fff;
+  gap: 10px;
+  border-radius: 50%;
+}
+.icon-size {
+  font-size: 24px;
+}
+
+.ant-menu-sub{
+  border-radius: 10px;
+}
+ul{
+  border-radius: 10px;
+}
+
+.menu{
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.search-box{
+  vertical-align: center;
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.theme-btn{
+  position: absolute;
+  z-index: 999;
+  top: 16px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+
+.toggle-btn{
+  font-size: 20px;
+  background-color: transparent;
+  border: transparent solid;
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+.dark{
+  color: #001529;
+}
